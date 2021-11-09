@@ -34,4 +34,11 @@ The update also features a crossover with another indie Metroidvania, Bloodstain
 - Provincia (20 char)
 - Código postal (5 char)
 - Tlf. fijo (123-12-12-12, opcional)
-- Tlf. móvil 
+- Tlf. móvil (123-123456)
+- Edad (1-100)
+- Correo electrónico
+- Contraseña (4-10 mayúsculas/números)
+- Nivel de estudios (Certificado escolar,
+ESO, Bachiller-Formación Profesional, Graduado, Máster, Doctorado)
+- Intereses (opcional)
+- Comentarios (opcional)
