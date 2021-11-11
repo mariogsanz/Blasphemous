@@ -42,3 +42,13 @@ The update also features a crossover with another indie Metroidvania, Bloodstain
 ESO, Bachiller-Formación Profesional, Graduado, Máster, Doctorado)
 - Intereses (opcional)
 - Comentarios (opcional)
+- Tema Práctica (Videojuegos, Películas, Series)
+- Archivo práctica
+- Fecha práctica
+- Dirección web
+- Condiciones
+- Guardar
+- Limpiar
+
+## **Galería**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/seGW4vdfL7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
