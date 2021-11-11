@@ -51,6 +51,4 @@ ESO, Bachiller-Formación Profesional, Graduado, Máster, Doctorado)
 - Limpiar
 
 ## **Galería**
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/seGW4vdfL7A" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+[![Blasphemous](https://res.cloudinary.com/marcomontalbano/image/upload/v1636619207/video_to_markdown/images/youtube--seGW4vdfL7A-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=seGW4vdfL7A "Blasphemous")
