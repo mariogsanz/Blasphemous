@@ -31,11 +31,13 @@ section{
 #content{
     float: left;
     width: 65%;
+    margin-left: 1%;
 }
 
 #panel{
     float: right;
     width: 30%;
+    margin-left: 1%;
 }
 
 #header{
@@ -53,6 +55,17 @@ h2{
     color: #D9C279;
     font-family: "Niramit-Regular";
     font-size: 39px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: 1.7px;
+}
+
+h3{
+    color: #D9C279;
+    font-family: "Niramit-Regular";
+    font-size: 25px;
     font-weight: normal;
     text-transform: uppercase;
     font-style: normal;
@@ -87,4 +100,21 @@ footer table{
 nav table{
     text-align: center;
     margin: 0 auto;
+}
+
+hr{
+    height: 1px;
+    border-width: 0px;
+    background-color: #d9c279;
+}
+
+#panel{
+    text-align: center;
+    font-family: "Niramit-Regular";
+    font-size: large;
+}
+
+#panel h1{
+    color: #d9c279;
+    font-size: 30px;
 }
