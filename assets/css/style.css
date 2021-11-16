@@ -73,7 +73,7 @@ h3{
     letter-spacing: 1.7px;
 }
 
-p{
+p, form{
     color: #FFFFFF;
     font-family: "Niramit-Regular";
     font-size: 17px;
@@ -117,4 +117,10 @@ hr{
 #panel h1{
     color: #d9c279;
     font-size: 30px;
+}
+
+form table,td{
+    padding-left: 10px;
+    padding-right: 10px;
+
 }

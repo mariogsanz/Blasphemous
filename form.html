@@ -29,11 +29,43 @@
             </table>
         </nav>
     </header>
+    <hr>
     <section>
         <div id="content">
             <h2>Form</h2>
             <hr>
-            <form action=""></form>
+            <form action="./prueba.txt" method="post">
+                <table>
+                    <tr>
+                        <td><label for="nombre">Name</label></td>
+                        <td><input type="text" name="nombre" id="nombre" maxlength="20" placeholder="Enter your name" size="50"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellido1">First surname</label></td>
+                        <td><input type="text" name="apellido1" id="apellido1" placeholder="Enter your first surname" size="50" maxlength="20"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellido2">Second surname</label></td>
+                        <td><input type="text" name="apellido2" id="apellido2" placeholder="Enter your second surname" size="50" maxlength="20"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="direccion">Address</label></td>
+                        <td><input type="text" name="direccion" id="direccion" placeholder="Enter your address" size="50" maxlength="50"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="provincia">Province</label></td>
+                        <td><input type="text" name="provincia" id="provincia" size="50" maxlength="20" placeholder="Enter your province"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="codigo">Postal code</label></td>
+                        <td><input type="text" name="codigo" id="codigo" maxlength="5" size="50" placeholder="Enter your postal code"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fijo">Phone</label></td>
+                        <td><input type="tel" name="fijo" id="fijo" maxlength=""></td>
+                    </tr>
+                </table>
+            </form>
         </div>
         <aside id="panel">
             <h1>Bibliography</h1>
