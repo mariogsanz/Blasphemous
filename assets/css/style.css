@@ -124,3 +124,6 @@ form table,td{
     padding-right: 10px;
 
 }
+ td.required{
+     color: red;
+ }
