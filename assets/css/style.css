@@ -124,6 +124,11 @@ form table,td{
     padding-right: 10px;
 
 }
- td.required{
+
+td.required{
      color: red;
- }
+}
+
+#buttons{
+    text-align: center;
+}
