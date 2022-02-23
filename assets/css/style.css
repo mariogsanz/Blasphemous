@@ -19,7 +19,19 @@ header nav li{
     margin: 0.5em 1em;
 }
 
+header nav a:link,a:visited{
+    text-decoration: none;
+    color: #d9c279;
+    padding: 0 1em;
+}
+
 header nav a:hover{
+    background: #d9c279;
+    border-radius: 10px;
+    color:#1f1c21;
+}
+
+nav a#current{
     background: #d9c279;
     border-radius: 10px;
     color:#1f1c21;
@@ -31,13 +43,13 @@ body{
 
 footer table td a img{
     width: 43px;
-    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
 }
 
 a:link,a:visited{
     text-decoration: none;
     color: #d9c279;
-    padding: 0 1em;
 }
 
 section{
@@ -51,6 +63,11 @@ section{
     float: left;
     width: 65%;
     margin-left: 1%;
+}
+
+.column{
+    column-count: 3;
+    column-gap: 2em;
 }
 
 #panel{
@@ -92,6 +109,8 @@ h3{
     font-style: normal;
     line-height: 1.4em;
     letter-spacing: 1.7px;
+    border-bottom: 1px solid #d9c279;
+    padding-bottom: 0.5em;
 }
 
 p, form{
