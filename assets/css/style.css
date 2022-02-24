@@ -10,6 +10,7 @@ header nav ul{
     margin: 0;
     top: 0;
     z-index: 1;
+    box-sizing: border-box;
 }
 
 header nav li{
@@ -25,13 +26,13 @@ header nav a:link,a:visited{
     padding: 0 1em;
 }
 
-header nav a:hover{
-    background: #d9c279;
+header nav .nav:hover{
     border-radius: 10px;
+    animation: nav 0.5s forwards;
     color:#1f1c21;
 }
 
-nav a#current{
+nav #current{
     background: #d9c279;
     border-radius: 10px;
     color:#1f1c21;
@@ -146,12 +147,6 @@ nav table{
     margin: 0 auto;
 }
 
-hr{
-    height: 1px;
-    border-width: 0px;
-    background-color: #d9c279;
-}
-
 #panel{
     text-align: center;
     font-family: "Niramit-Regular";
@@ -185,4 +180,30 @@ td.required{
 
 #buttons{
     text-align: center;
+}
+
+img:hover{
+    animation: images 1s forwards;
+}
+
+@keyframes images {
+    0%{
+        border: 1px solid #d9c279;
+        transform: scale(1);
+    }
+    100%{
+        border: 1px solid #d9c279;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes nav {
+    0%{
+        background: rgba(217, 194, 121, 0);
+        color: #d9c279;
+    }
+    100%{
+        background: rgba(217, 194, 121, 1);
+        color: #1f1c21;
+    }
 }
