@@ -182,7 +182,7 @@ td.required{
     text-align: center;
 }
 
-img:hover{
+.zoom:hover{
     animation: images 1s forwards;
 }
 
@@ -206,4 +206,20 @@ img:hover{
         background: rgba(217, 194, 121, 1);
         color: #1f1c21;
     }
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    position: relative;
+    background-color: #d9c279;
+    min-width: max-content;
+}
+
+.dropdown-content a{
+    color: #1f1c21;
+    display: block;
 }
